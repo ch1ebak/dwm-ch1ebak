@@ -1,0 +1,2 @@
+* DWM + DWMBlocks
+A very minimal DWM and DWMBlocks config with spacegray color scheme. 
