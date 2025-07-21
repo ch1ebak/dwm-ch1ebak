@@ -140,13 +140,11 @@ static const Button buttons[] = {
 };
 
 static const char *const autostart[] = {
+	"dwmblocks", NULL,
 	"/usr/bin/emacs", "--daemon", NULL,
-	"nitrogen", "--restore", NULL,
+	"nm-applet", NULL,
 	"picom", "-b", NULL,
 	"dunst", NULL,
-	"xbacklight", "-set 60", NULL,
-	"nm-applet", NULL,
-	"dwmblocks", NULL,
-	"batsignal", "-w 20", "-c 15", "-d 5", "-p", "-f 90", "-b", NULL,
+	"brightnessctl", "set 60%", NULL,
 	NULL
 };
